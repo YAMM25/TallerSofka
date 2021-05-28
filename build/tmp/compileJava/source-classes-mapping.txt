@@ -1,6 +1,10 @@
-Ejercicio1/Main.java
- Ejercicio1.Main
-Ejercicio1/NumeroMayor.java
- Ejercicio1.NumeroMayor
 Ejercicio2/Main.java
  Ejercicio2.Main
+Ejercicio3/Main.java
+ Ejercicio3.Main
+Ejercicio3/AreaCirculo.java
+ Ejercicio3.AreaCirculo
+Ejercicio1/NumeroMayor.java
+ Ejercicio1.NumeroMayor
+Ejercicio1/Main.java
+ Ejercicio1.Main
