@@ -12,13 +12,13 @@ Ejercicio4/ProductoIva.java
  Ejercicio4.ProductoIva
 Ejercicio4/Main.java
  Ejercicio4.Main
-Ejercicio7/Comparar.java
- Ejercicio7.Comparar
-Ejercicio7/Main.java
- Ejercicio7.Main
-Ejercicio5/NumParImpar.java
- Ejercicio5.NumParImpar
 Ejercicio6/Main.java
  Ejercicio6.Main
 Ejercicio5/Main.java
  Ejercicio5.Main
+Ejercicio5/NumParImpar.java
+ Ejercicio5.NumParImpar
+Ejercicio7/Comparar.java
+ Ejercicio7.Comparar
+Ejercicio7/Main.java
+ Ejercicio7.Main

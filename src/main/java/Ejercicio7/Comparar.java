@@ -1,34 +1,28 @@
 package Ejercicio7;
 
+import java.util.Scanner;
+
 public class Comparar {
     private int numero1;
-    private boolean respuesta;
 
-    public Comparar(){
-        respuesta=false;
+    //Método para leer variable número
+    public void leerVariable(){
+        Scanner lector = new Scanner (System.in);
+        System.out.println("Ingrese un numero mayor o igual que cero: ");
+        numero1 =lector.nextInt();
     }
 
-    public Comparar(int numero1, boolean respuesta) {
-        this.numero1 = numero1;
-        this.respuesta = respuesta;
-    }
+    public void Comparar() {
+        do{
+            if (numero1 >= 0){
+                System.out.println("El número ingresado fue: " +numero1);
+                break;
+            }
+            leerVariable();
 
-    public void setNumero1(int numero1) {
-        this.numero1 = numero1;
-    }
+        }while(numero1 < 0);
 
-    public int getNumero1() {
-        return numero1;
-    }
 
-    public boolean isRespuesta() {
-        if (numero1 >= 0){
-           respuesta = true;
-        }
-        if (numero1 < 0){
-            respuesta = false;
-        }
-        return respuesta;
     }
 
 
