@@ -34,3 +34,23 @@ Ejercicio10/QuitarEspacio.java
  Ejercicio10.QuitarEspacio
 Ejercicio10/Main.java
  Ejercicio10.Main
+Ejercicio11/Main.java
+ Ejercicio11.Main
+Ejercicio11/ContarVocales.java
+ Ejercicio11.ContarVocales
+Ejercicio12/Main.java
+ Ejercicio12.Main
+Ejercicio13/FechaHora.java
+ Ejercicio13.FechaHora
+Ejercicio13/Main.java
+ Ejercicio13.Main
+Ejercicio12/CompararCadena.java
+ Ejercicio12.CompararCadena
+Ejercicio14/Main.java
+ Ejercicio14.Main
+Ejercicio14/NumeroalMil.java
+ Ejercicio14.NumeroalMil
+Ejercicio15/Main.java
+ Ejercicio15.Main
+Ejercicio15/MenuOpc.java
+ Ejercicio15.MenuOpc

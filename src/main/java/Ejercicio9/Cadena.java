@@ -18,8 +18,8 @@ public class Cadena {
 
 
     public void reemplazar() {
-        String cadena ="La sonrisa sera la mejor arma contra la tristeza";
-        System.out.println(cadena.replace("a","e")+" "+frase);
+        String cadena ="La sonrisa sera la mejor arma contra la tristeza ";
+        System.out.println(cadena.replace("a","e").concat(frase));
     }
 }
 
