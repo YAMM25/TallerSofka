@@ -1,12 +1,10 @@
-package Ejercicio7;
+package Ejercicio8;
 
-import Ejercicio1.NumeroMayor;
-
-
+import Ejercicio7.Comparar;
 
 public class Main {
     public static void main(String[] args){
-        Comparar objnum = new Comparar();
+        DiaSemana objnum = new DiaSemana();
 
         objnum.leerVariable();
         objnum.Comparar();

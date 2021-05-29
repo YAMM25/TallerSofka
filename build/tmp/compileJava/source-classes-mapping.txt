@@ -1,24 +1,36 @@
-Ejercicio2/Main.java
- Ejercicio2.Main
-Ejercicio3/Main.java
- Ejercicio3.Main
-Ejercicio3/AreaCirculo.java
- Ejercicio3.AreaCirculo
-Ejercicio1/NumeroMayor.java
- Ejercicio1.NumeroMayor
-Ejercicio1/Main.java
- Ejercicio1.Main
-Ejercicio4/ProductoIva.java
- Ejercicio4.ProductoIva
-Ejercicio4/Main.java
- Ejercicio4.Main
 Ejercicio6/Main.java
  Ejercicio6.Main
 Ejercicio5/Main.java
  Ejercicio5.Main
-Ejercicio5/NumParImpar.java
- Ejercicio5.NumParImpar
-Ejercicio7/Comparar.java
- Ejercicio7.Comparar
+Ejercicio3/AreaCirculo.java
+ Ejercicio3.AreaCirculo
+Ejercicio4/Main.java
+ Ejercicio4.Main
 Ejercicio7/Main.java
  Ejercicio7.Main
+Ejercicio4/ProductoIva.java
+ Ejercicio4.ProductoIva
+Ejercicio1/Main.java
+ Ejercicio1.Main
+Ejercicio7/Comparar.java
+ Ejercicio7.Comparar
+Ejercicio2/Main.java
+ Ejercicio2.Main
+Ejercicio3/Main.java
+ Ejercicio3.Main
+Ejercicio5/NumParImpar.java
+ Ejercicio5.NumParImpar
+Ejercicio8/DiaSemana.java
+ Ejercicio8.DiaSemana
+Ejercicio1/NumeroMayor.java
+ Ejercicio1.NumeroMayor
+Ejercicio8/Main.java
+ Ejercicio8.Main
+Ejercicio9/Main.java
+ Ejercicio9.Main
+Ejercicio9/Cadena.java
+ Ejercicio9.Cadena
+Ejercicio10/QuitarEspacio.java
+ Ejercicio10.QuitarEspacio
+Ejercicio10/Main.java
+ Ejercicio10.Main
