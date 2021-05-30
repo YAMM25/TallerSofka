@@ -18,33 +18,30 @@ public class CompararCadena {
 
 
 
-   /* public void ContarVocales(String frase1,String frase2) {
+    public void compararFrase() {
+        String fras1,fras2;
+        leerVariable();
+        fras1=frase;
+        leerVariable();
+        fras2=frase;
 
-        if(frase1.equalsIgnoreCase(frase2)){
-            System.out.println("las frases son iguales");
-        }else {
-
-        }
-
-
-
-        int cantvoc = 0;
-        String compf,compv;
-
-
-        for( int i=0; i<frase.length(); i++){
-
-            for( int a=0; a<vocales.length; a++){
-                compf = Character.toString(frase.charAt(i));
-                compv = Character.toString(vocales[a]);
-                if(compf.equalsIgnoreCase(compv)){
-                    cantvoc++;
+        if(fras1.length() == fras2.length()){
+            if(fras1.equals(fras2)){
+                System.out.println("Las palabras" + fras1 + " y " + fras2 + " son iguales.");
+            }
+            else {
+                for (int i = 0; i < fras1.length(); i++) {
+                    if (fras1.charAt(i) != fras2.charAt(i)) {
+                        System.out.println(" Las palabras no coinciden en la posición: " + i );
+                        System.out.println("Donde se tiene "+ fras1.charAt(i) + " en vez de " + fras2.charAt(i));
+                    }
                 }
-
             }
         }
+        else{
+            System.out.println("Las palabras no son iguales.");
+        }
 
-        System.out.println("la longitud de la frase es de: "+frase.length()
-                +" y la cantidad de vocales es de: "+cantvoc);
-    }*/
+
+    }
 }

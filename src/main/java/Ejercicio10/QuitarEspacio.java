@@ -1,5 +1,6 @@
 package Ejercicio10;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class QuitarEspacio {
@@ -11,7 +12,8 @@ public class QuitarEspacio {
     public void leerVariable(){
         Scanner lector = new Scanner (System.in);
         System.out.println("ingrese una frase ");
-        frase = lector.nextLine();
+        frase = lector.nextLine().toUpperCase();
+
     }
 
 

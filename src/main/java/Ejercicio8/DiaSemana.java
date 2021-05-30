@@ -4,54 +4,34 @@ import java.util.Scanner;
 
 public class DiaSemana {
     private String dia;
-    String nomdia[] ={"Lunes","Martes","Miercoles","Jueves","Viernes","Sábado","Domingo"};
+
 
     //Método para leer variable día
     public void leerVariable(){
         Scanner lector = new Scanner (System.in);
-        System.out.println("Ingrese un Numero mayor o igual que cero: ");
-        dia = lector.nextLine();
+        System.out.println("Ingrese un día de la semana: ");
+        dia = lector.nextLine().toLowerCase();
     }
 
 
     public void Comparar() {
 
-      /*  switch(dia)
+        switch(dia)
         {
-
-            String s =dia ;
-
-            case s.equalsIgnoreCase(nomdia[0]) :
-                System.out.println("El lunes es un día laboral");
+            case "lunes":
+            case "martes":
+            case "miercoles":
+            case "jueves":
+            case "viernes":
+                System.out.println("El "+dia+" es un día laboral");
                 break;
-
-            case s.equalsIgnoreCase(nomdia[1]) :
-                System.out.println("El Martes es un día laboral");
+            case "sabado":
+            case "domingo":
+                System.out.println("El "+dia+" no es un día laboral");
                 break;
-
-            case s.equalsIgnoreCase(nomdia[2]) :
-                System.out.println("El Miercoles es un día laboral");
-                break;
-
-            case s.equalsIgnoreCase(nomdia[3]) :
-                System.out.println("El Jueves es un día laboral");
-                break;
-
-            case s.equalsIgnoreCase(nomdia[4]) :
-                System.out.println("El Viernes es un día laboral");
-                break;
-
-            case s.equalsIgnoreCase(nomdia[5]) :
-                System.out.println("El Sábado es un día laboral");
-                break;
-
-            case s.equalsIgnoreCase(nomdia[6]) :
-                System.out.println("El Domingo no es un día laboral");
-                break;
-
             default:
                 System.out.println("Opción no valida ");
-        }*/
+        }
 
 
     }

@@ -1,2 +1,4 @@
-package Ejercicio16;public class Main {
+package Ejercicio16;
+
+public class Main {
 }

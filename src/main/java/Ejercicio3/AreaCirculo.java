@@ -19,6 +19,7 @@ public class AreaCirculo {
     public double getArea() {
 
         area= Math.PI * Math.pow(2,Perimetro);
+
         return area;
     }
 }
