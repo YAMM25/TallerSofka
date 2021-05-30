@@ -8,7 +8,7 @@ public class Comparar {
     //Método para leer variable número
     public void leerVariable(){
         Scanner lector = new Scanner (System.in);
-        System.out.println("Ingrese un numero mayor o igual que cero: ");
+        System.out.println("Ingrese un Numero mayor o igual que cero: ");
         numero1 =lector.nextInt();
     }
 

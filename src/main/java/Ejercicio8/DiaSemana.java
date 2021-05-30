@@ -9,7 +9,7 @@ public class DiaSemana {
     //Método para leer variable día
     public void leerVariable(){
         Scanner lector = new Scanner (System.in);
-        System.out.println("Ingrese un numero mayor o igual que cero: ");
+        System.out.println("Ingrese un Numero mayor o igual que cero: ");
         dia = lector.nextLine();
     }
 

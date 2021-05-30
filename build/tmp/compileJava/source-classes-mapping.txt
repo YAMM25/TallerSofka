@@ -6,26 +6,26 @@ Ejercicio3/AreaCirculo.java
  Ejercicio3.AreaCirculo
 Ejercicio4/Main.java
  Ejercicio4.Main
-Ejercicio7/Main.java
- Ejercicio7.Main
+Ejercicio13/Main.java
+ Ejercicio13.Main
 Ejercicio4/ProductoIva.java
  Ejercicio4.ProductoIva
 Ejercicio1/Main.java
  Ejercicio1.Main
-Ejercicio7/Comparar.java
- Ejercicio7.Comparar
+Ejercicio15/MenuOpc.java
+ Ejercicio15.MenuOpc
 Ejercicio2/Main.java
  Ejercicio2.Main
 Ejercicio3/Main.java
  Ejercicio3.Main
 Ejercicio5/NumParImpar.java
  Ejercicio5.NumParImpar
-Ejercicio8/DiaSemana.java
- Ejercicio8.DiaSemana
+Ejercicio15/Main.java
+ Ejercicio15.Main
 Ejercicio1/NumeroMayor.java
  Ejercicio1.NumeroMayor
-Ejercicio8/Main.java
- Ejercicio8.Main
+Ejercicio12/CompararCadena.java
+ Ejercicio12.CompararCadena
 Ejercicio9/Main.java
  Ejercicio9.Main
 Ejercicio9/Cadena.java
@@ -42,15 +42,15 @@ Ejercicio12/Main.java
  Ejercicio12.Main
 Ejercicio13/FechaHora.java
  Ejercicio13.FechaHora
-Ejercicio13/Main.java
- Ejercicio13.Main
-Ejercicio12/CompararCadena.java
- Ejercicio12.CompararCadena
+Ejercicio7/Comparar.java
+ Ejercicio7.Comparar
+Ejercicio7/Main.java
+ Ejercicio7.Main
+Ejercicio8/Main.java
+ Ejercicio8.Main
+Ejercicio8/DiaSemana.java
+ Ejercicio8.DiaSemana
 Ejercicio14/Main.java
  Ejercicio14.Main
 Ejercicio14/NumeroalMil.java
  Ejercicio14.NumeroalMil
-Ejercicio15/Main.java
- Ejercicio15.Main
-Ejercicio15/MenuOpc.java
- Ejercicio15.MenuOpc

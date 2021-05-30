@@ -1,0 +1,11 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ïœ­Îıÿÿÿÿ
+I
+java:S1128"3Remove this unused import 'Ejercicio3.AreaCirculo'.(Ôàê¬
+J
+java:S6212	"/Declare this local variable with "var" instead.(©öìıÿÿÿÿ
+E
+java:S6212
+"/Declare this local variable with "var" instead.(ß—Úá
+N	java:S106"9Replace this use of System.out or System.err by a logger.(§î¸
+S	java:S106"9Replace this use of System.out or System.err by a logger.(€¸¿üıÿÿÿÿ

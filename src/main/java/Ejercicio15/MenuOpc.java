@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MenuOpc {
 
     public void MenuOpciones() {
+
         System.out.println("****** GESTION CINEMATOGRAFICA ********\n "
                 +"1: NUEVO ACTOR\n "
                 +"2: BUSCAR ACTOR\n "
@@ -20,32 +21,38 @@ public class MenuOpc {
         Scanner lector = new Scanner (System.in);
         int opc;
 
-        do{
-            MenuOpciones();
-            System.out.println("Digite una opción del menú ");
+        try {
+            do{
+                MenuOpciones();
+                System.out.println("Digite una opción del menú ");
 
-            opc=lector.nextInt();
-            switch(opc)
-            {
-                case 1:
-                    break;
-                case 2:
-                    break;
-                case 3:
-                    break;
-                case 4:
-                    break;
-                case 5:
-                    break;
-                case 6:
-                    break;
-                case 7:
-                    break;
-                case 8:
-                    break;
-                default:
-                    System.out.println("Opción no valida \n");
-            }
-        }while(opc!=8);
+                opc=lector.nextInt();
+                switch(opc)
+                {
+                    case 1:
+                        break;
+                    case 2:
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    case 5:
+                        break;
+                    case 6:
+                        break;
+                    case 7:
+                        break;
+                    case 8:
+                        break;
+                    default:
+                        System.out.println("Opción no valida \n");
+                }
+            }while(opc!=8);
+        }catch (Exception e){
+            System.out.println("la opción ingresada debe ser numerica \n");
+            Menu();
+        }
+
     }
 }
