@@ -12,9 +12,6 @@ public class CompararCadena {
         frase = lector.nextLine();
     }
 
-    public String getFrase() {
-        return frase;
-    }
 
 
 

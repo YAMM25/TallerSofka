@@ -1,13 +1,46 @@
 package Ejercicio16;
 
-/*public class Persona {
+import java.util.Scanner;
 
+public class Persona {
+    Scanner sc = new Scanner(System.in);
     private String nombre;
     private int edad;
-    private String dni;
+    private int dni;
     private final char sexo;
     private double peso;
     private double altura;
+
+
+    public Persona(){
+        nombre="";
+        edad=0;
+        sexo='H';
+        peso=0;
+        altura=0;
+
+    }
+
+    public Persona(String nombre, int edad, char sexo) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sexo = sexo;
+
+    }
+
+
+    public Persona(String nombre, int edad, char sexo, int dni, float peso, float altura) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.sexo = sexo;
+        this.dni = dni;
+        this.peso = peso;
+        this.altura = altura;
+    }
+
+    public char getSexo() {
+        return sexo;
+    }
 
     public String getNombre() {
         return nombre;
@@ -23,18 +56,6 @@ package Ejercicio16;
 
     public void setEdad(int edad) {
         this.edad = edad;
-    }
-
-    public String getDni() {
-        return dni;
-    }
-
-    public void setDni(String dni) {
-        this.dni = dni;
-    }
-
-    public char getSexo() {
-        return sexo;
     }
 
     public double getPeso() {
@@ -53,69 +74,110 @@ package Ejercicio16;
         this.altura = altura;
     }
 
-    public Persona() {
-        nombre = "";
-        edad = 0;
-        sexo = 'H';
-        peso = 0;
-        altura = 0;
+
+    public  double calcularIMC(){
+        double resultado;
+        resultado= getPeso() / Math.pow(getAltura(),2);
+        return resultado;
     }
 
-    public Persona(String nombre, int edad, char sexo) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.sexo = sexo;
+   public String Mostrar(){
+
+        final String peso_ideal="-1";
+        final String peso_bajo="0";
+        final String sobre_peso="1";
+        String Mensaje;
+        if (calcularIMC()<20){
+            Mensaje="Está en su peso ideal " + peso_ideal;
+        }else if(calcularIMC() >= 20 && calcularIMC() <=25){
+            Mensaje="Está por debajo de su peso ideal " + peso_bajo;
+        }else {
+            Mensaje="Usted está sobre peso" + sobre_peso;
+        }
+        return Mensaje;
     }
 
-    public Persona(String nombre, int edad, char sexo, double peso, double altura) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.sexo = sexo;
-        this.peso = peso;
-        this.altura = altura;
+    public void MayorEdad(){
+
+        if (getEdad()>= 18){
+            System.out.println(nombre+" es mayor de edad ? "+ true);
+        }else {
+            System.out.println(nombre+" es mayor de edad ? "+ false);
+        }
+          }
+
+
+   public int Dni(){
+       this.dni = 0;
+       this.dni = (int) (Math.random()*10000000);
+       return this.dni;
+   }
+
+    public String obtenerNumeroID(){
+        int operacionDNI;
+        String letraDNI = "";
+        Dni();
+        operacionDNI = this.dni%23;
+        String letras[]= {"-T","-R","-W","-A","-G","-M","-Y","-F","-P","-D","-X","-B","-N","-J","-Z","-S","-Q","-V","-H","-L","-C","-K","-E"};
+        for (int i = 0; i < letras.length; i++) {
+            if (operacionDNI == i){
+                letraDNI = letras[i];
+                break;
+            }
+        }
+        return letraDNI;
     }
 
-    public int calcularIMC(){
-        final int peso_ideal=-1;
-        final int debajo_peso=0;
-        final int sobre_peso=1;
-        double calcularIMC;
 
-        calcularIMC = peso / Math.pow(2,altura);
+    @Override
+    public String toString() {
+        return "Persona{" +
+                ", nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", dni=" + dni + obtenerNumeroID() +
+                ", sexo=" + sexo +
+                ", peso=" + peso +
+                ", altura=" + altura +
+                '}';
+    }
 
-        if (calcularIMC < 20){
-            return peso_ideal;
-        }else
-            if (calcularIMC >= 20 && calcularIMC <= 25){
-                return debajo_peso;
-            }else{
-                return sobre_peso;
+    public void persona1() {
+        String sexo;
+        System.out.println("ingrese su nombre");
+        nombre=sc.next();
+        System.out.println("ingrese su edad");
+        edad= sc.nextInt();
+        System.out.println("ingrese su Altura");
+        altura = sc.nextDouble();
+        System.out.println("ingrese su Peso");
+        peso=sc.nextDouble();
+        System.out.println("ingrese su Sexo");
+        sexo = sc.next();
+        System.out.println(Mostrar());
+
+            }
+
+            public void persona2(){
+                String sexo;
+                System.out.println("ingrese su nombre");
+                nombre=sc.next();
+                System.out.println("ingrese su edad");
+                edad= sc.nextInt();
+                System.out.println("ingrese su Sexo");
+                sexo = sc.next();
+            }
+
+            public void persona3(){
+
+             setNombre("maria");
+             setEdad(24);
+             setAltura(1.74);
+             setPeso(65.8);
+             getSexo();
+
             }
     }
 
-    public boolean esMayorDeEdad(){
-
-        if (edad >= 18){
-            return true;
-        }else
-            return false;
-    }
-
-    private char comprobarSexo(char sexo){
-
-        try {
 
 
 
-        } catch (Exception e){
-        System.out.println("La información no es correcto \n");
-        sexo ='H';
-    }
-
-
-    }
-
-
-
-
-}*/
